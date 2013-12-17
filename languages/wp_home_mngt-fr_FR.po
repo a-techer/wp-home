@@ -1,0 +1,507 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wp Home - V0.1\n"
+"POT-Creation-Date: 2013-10-31 14:12+0100\n"
+"PO-Revision-Date: 2013-10-31 14:12+0100\n"
+"Last-Translator: \n"
+"Language-Team: Alexandre Techer <alexandre.techer@gmail.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../core/config.php:12 ../core/display.class.php:13
+#: ../core/files_include.php:13 ../core/wp-home.class.php:13
+#: ../modules/account.class.php:13 ../modules/categories.class.php:13
+msgid "You are not allowed to use this service."
+msgstr "Vous ne pouvez pas accèder à ce contenu"
+
+#: ../core/display.class.php:133
+#, php-format
+msgid ""
+"The asked template could not be found in any of existing templates. Check "
+"for \"%s\" template"
+msgstr ""
+"Le template d'affichage demandé ne peut être trouvé. Merci de vérifier son "
+"existance \"%s\""
+
+#: ../core/wp-home.class.php:61
+msgid "Home management dashboard"
+msgstr "Tableau de bord pour la gestion domestique"
+
+#: ../core/wp-home.class.php:61
+msgid "Home"
+msgstr "Maison"
+
+#: ../modules/account.class.php:36
+msgid "Accounts"
+msgstr "Comptes"
+
+#: ../modules/account.class.php:37
+msgid "Account"
+msgstr "Compte"
+
+#: ../modules/account.class.php:38
+msgid "Add new"
+msgstr "Ajouter"
+
+#: ../modules/account.class.php:39
+#: ../templates/backend/tpl_elements.tpl.php:11
+msgid "Add new account"
+msgstr "Ajouter un nouveau compte"
+
+#: ../modules/account.class.php:40
+#: ../templates/backend/tpl_elements.tpl.php:34
+msgid "Edit account"
+msgstr "&Eacute;diter le compte"
+
+#: ../modules/account.class.php:41
+msgid "New account"
+msgstr "Nouveau compte"
+
+#: ../modules/account.class.php:42
+msgid "View account"
+msgstr "Voir compte"
+
+#: ../modules/account.class.php:43
+msgid "Search accounts"
+msgstr "Rechercher dans les comptes"
+
+#: ../modules/account.class.php:44
+msgid "No accounts found"
+msgstr "Aucun compte n'a été trouvé"
+
+#: ../modules/account.class.php:45
+msgid "No accounts found in Trash"
+msgstr "Aucun compte n'a été trouvé dans la corbeille"
+
+#: ../modules/account.class.php:218
+msgid "Account created successfully"
+msgstr "Compte créé avec succés"
+
+#: ../modules/account.class.php:219
+msgid "An error occured while creating account. Please try later."
+msgstr ""
+"Une erreur est survenue lors de la création du compte. Merci de réessayer "
+"ultérieurement."
+
+#: ../modules/account.class.php:226
+msgid "Account saved successfully"
+msgstr "Compte sauvegardé avec succés"
+
+#: ../modules/account.class.php:227
+msgid "An error occured while saving account modification. Please try later."
+msgstr ""
+"Une erreur est survenue lors de la sauvegarde du compte. Merci de réessayer "
+"ultérieurement."
+
+#: ../modules/account.class.php:249
+msgid ""
+"We are unable to check if you are allowed to use this form. Please contact "
+"administrator."
+msgstr ""
+"Nous ne pouvons pas vérifier vos autorisations. Merci de contacter "
+"l'administrateur."
+
+#: ../modules/account.class.php:272
+msgid "Account has been deleted successfully"
+msgstr "Compte supprimé avec succés"
+
+#: ../modules/account.class.php:277
+msgid ""
+"An error occured while attempting to delete account. Please retry or contact "
+"administrator."
+msgstr ""
+"Une erreur est survenue lors de la suppression du compte. Merci de réessayer "
+"ultérieurement"
+
+#: ../modules/categories.class.php:45
+msgid "Account types"
+msgstr "Types de compte"
+
+#: ../modules/categories.class.php:46 ../modules/categories.class.php:55
+#: ../templates/backend/tpl_elements.tpl.php:56
+msgid "Account type"
+msgstr "Type de compte"
+
+#: ../modules/categories.class.php:47
+msgid "Search account types"
+msgstr "Rechercher dans les types de compte"
+
+#: ../modules/categories.class.php:48
+msgid "All account types"
+msgstr "Tous les types de compte"
+
+#: ../modules/categories.class.php:49
+msgid "Parent Account type"
+msgstr "Type de compte parent"
+
+#: ../modules/categories.class.php:50
+msgid "Parent Account type:"
+msgstr "Type de compte parent:"
+
+#: ../modules/categories.class.php:51
+msgid "Edit Account type"
+msgstr "&Eacute;diter le type de compte"
+
+#: ../modules/categories.class.php:52
+msgid "Update Account type"
+msgstr "Mettre à jour le type de compte"
+
+#: ../modules/categories.class.php:53
+msgid "Add New Account type"
+msgstr "Ajouter un nouveau type de compte"
+
+#: ../modules/categories.class.php:54
+msgid "New Account type"
+msgstr "Nouveau type de compte"
+
+#: ../modules/categories.class.php:70
+msgid "Operation types"
+msgstr "Types d'opération"
+
+#: ../modules/categories.class.php:71 ../modules/categories.class.php:80
+msgid "Operation type"
+msgstr "Type d'opération"
+
+#: ../modules/categories.class.php:72
+msgid "Search operation types"
+msgstr "Rechercher dans les types d'opérations"
+
+#: ../modules/categories.class.php:73
+msgid "All operation types"
+msgstr "Tous les types d'opération"
+
+#: ../modules/categories.class.php:74
+msgid "Parent Operation type"
+msgstr "Type d'opération parent"
+
+#: ../modules/categories.class.php:75
+msgid "Parent Operation type:"
+msgstr "Type d'opération parent:"
+
+#: ../modules/categories.class.php:76
+msgid "Edit Operation type"
+msgstr "&Eacute;diter le type d'opération"
+
+#: ../modules/categories.class.php:77
+msgid "Update Operation type"
+msgstr "Mettre à jour le type d'opération"
+
+#: ../modules/categories.class.php:78
+msgid "Add New operation type"
+msgstr "Ajouter un type d'opération"
+
+#: ../modules/categories.class.php:79
+msgid "New Operation type"
+msgstr "Nouveau type d'opération"
+
+#: ../modules/categories.class.php:94 ../modules/categories.class.php:95
+#: ../modules/categories.class.php:104
+msgid "Payment means"
+msgstr "Moyen de paiement"
+
+#: ../modules/categories.class.php:96
+msgid "Search payment means"
+msgstr "Rechercher dans les moyens de paiement"
+
+#: ../modules/categories.class.php:97
+msgid "All payment means"
+msgstr "Tous les moyens de paiement"
+
+#: ../modules/categories.class.php:98
+msgid "Parent payment means"
+msgstr "Moyen de paiement parent"
+
+#: ../modules/categories.class.php:99
+msgid "Parent payment means:"
+msgstr "Moyen de paiement parent:"
+
+#: ../modules/categories.class.php:100
+msgid "Edit payment means"
+msgstr "&Eacute;diter le moyen de paiement"
+
+#: ../modules/categories.class.php:101
+msgid "Update payment means"
+msgstr "Mettre à jour le moyen de paiement"
+
+#: ../modules/categories.class.php:102
+msgid "Add New payment means"
+msgstr "Ajouter un moyen de paiement"
+
+#: ../modules/categories.class.php:103
+msgid "New payment means"
+msgstr "Nouveau moyen de paiement"
+
+#: ../modules/categories.class.php:122
+msgid "Current account"
+msgstr "Compte courant"
+
+#: ../modules/categories.class.php:123
+msgid "Saving account"
+msgstr "Compte épargne"
+
+#: ../modules/categories.class.php:139
+msgid "Spending"
+msgstr "Dépense"
+
+#: ../modules/categories.class.php:140 ../modules/categories.class.php:364
+msgid "Receipt"
+msgstr "Recette"
+
+#: ../modules/categories.class.php:141
+msgid "Saving"
+msgstr "&Eacute;pargne"
+
+#: ../modules/categories.class.php:155
+msgid "School fees, paper, pens, books"
+msgstr "Frais d'étude, papier, stylo, livres"
+
+#: ../modules/categories.class.php:159
+msgid "Canteen"
+msgstr "Restaurant universitaire"
+
+#: ../modules/categories.class.php:163
+msgid "Food"
+msgstr "Alimentation"
+
+#: ../modules/categories.class.php:167
+msgid "Housekeeping"
+msgstr "Entretien"
+
+#: ../modules/categories.class.php:171
+msgid "Household equipment"
+msgstr "Equipement de l'appart"
+
+#: ../modules/categories.class.php:175
+msgid "Clothes, shoes"
+msgstr "Vêtements, chaussures"
+
+#: ../modules/categories.class.php:179
+msgid "Beauty"
+msgstr "Beauté"
+
+#: ../modules/categories.class.php:183
+msgid "Medical expenses"
+msgstr "Frais médicaux"
+
+#: ../modules/categories.class.php:187
+msgid "Phones (home and cellular)"
+msgstr "Téléphone (Masion, portable)"
+
+#: ../modules/categories.class.php:191
+msgid "Internet"
+msgstr "Internet"
+
+#: ../modules/categories.class.php:195
+msgid "Fuel"
+msgstr "Carburant"
+
+#: ../modules/categories.class.php:199
+msgid "Car expenses"
+msgstr "Frais de voitures"
+
+#: ../modules/categories.class.php:203
+msgid "Transport"
+msgstr "Transport"
+
+#: ../modules/categories.class.php:207
+msgid "Cinema"
+msgstr "Cinéma"
+
+#: ../modules/categories.class.php:211
+msgid "Pub, coffee"
+msgstr "Bar, cafés"
+
+#: ../modules/categories.class.php:215
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: ../modules/categories.class.php:219
+msgid "Computer, office"
+msgstr "Informatique"
+
+#: ../modules/categories.class.php:223
+msgid "Various"
+msgstr "Divers"
+
+#: ../modules/categories.class.php:227
+msgid "Bike"
+msgstr "Vélo"
+
+#: ../modules/categories.class.php:231
+msgid "Electricity"
+msgstr "&Eacute;lectricité"
+
+#: ../modules/categories.class.php:235
+msgid "Cat"
+msgstr "Chat"
+
+#: ../modules/categories.class.php:239
+msgid "Tools"
+msgstr "Outils"
+
+#: ../modules/categories.class.php:243
+msgid "Gift"
+msgstr "Cadeaux"
+
+#: ../modules/categories.class.php:247
+msgid "Fast food"
+msgstr "Fast food"
+
+#: ../modules/categories.class.php:251
+msgid "Disney"
+msgstr "Disney"
+
+#: ../modules/categories.class.php:255
+msgid "Gardening"
+msgstr "Jardinnage"
+
+#: ../modules/categories.class.php:259
+msgid "Bank charges"
+msgstr "Frais bancaire"
+
+#: ../modules/categories.class.php:263
+msgid "Rent"
+msgstr "Loyer"
+
+#: ../modules/categories.class.php:267
+msgid "Lunch"
+msgstr "Repas midi"
+
+#: ../modules/categories.class.php:271
+msgid "Gas"
+msgstr "Gaz"
+
+#: ../modules/categories.class.php:275
+msgid "Online games"
+msgstr "Jeux en ligne"
+
+#: ../modules/categories.class.php:279
+msgid "Various gift"
+msgstr "Cadeaux divers"
+
+#: ../modules/categories.class.php:283
+msgid "Taxes"
+msgstr "Impôts"
+
+#: ../modules/categories.class.php:287
+msgid "Health"
+msgstr "Santé"
+
+#: ../modules/categories.class.php:291
+msgid "Insurance"
+msgstr "Assurance"
+
+#: ../modules/categories.class.php:295
+msgid "Bank loan"
+msgstr "Prêts"
+
+#: ../modules/categories.class.php:299
+msgid "Work"
+msgstr "Boulot"
+
+#: ../modules/categories.class.php:303
+msgid "Deezer"
+msgstr "Deezer"
+
+#: ../modules/categories.class.php:307
+msgid "Holiday meal"
+msgstr "Repas vacances"
+
+#: ../modules/categories.class.php:311
+msgid "Holiday visits"
+msgstr "Visites vacances"
+
+#: ../modules/categories.class.php:315
+msgid "Holiday transport"
+msgstr "Transport vacances"
+
+#: ../modules/categories.class.php:319
+msgid "Holiday accommodation"
+msgstr "Logement vacances"
+
+#: ../modules/categories.class.php:323
+msgid "Holiday memories"
+msgstr "Souvenirs vacances"
+
+#: ../modules/categories.class.php:327
+msgid "Dressmaking"
+msgstr "Couture"
+
+#: ../modules/categories.class.php:331
+msgid "Holiday food"
+msgstr "Alimantation vacances"
+
+#: ../modules/categories.class.php:335
+msgid "Water"
+msgstr "Eau"
+
+#: ../modules/categories.class.php:339
+msgid "Pregnancy"
+msgstr "Grossesse"
+
+#: ../modules/categories.class.php:343
+msgid "baby"
+msgstr "Bébé"
+
+#: ../modules/categories.class.php:362
+msgid "Credit card"
+msgstr "Carte de crédit"
+
+#: ../modules/categories.class.php:363
+msgid "Checks"
+msgstr "Chèques"
+
+#: ../modules/categories.class.php:365
+msgid "Direct debit"
+msgstr "Prélévement"
+
+#: ../templates/backend/tpl_elements.tpl.php:5
+msgid "Are you sure you want to delete this account?"
+msgstr "&Ecirc;tes vous sûr de vouloir supprimer ce compte?"
+
+#: ../templates/backend/tpl_elements.tpl.php:10
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: ../templates/backend/tpl_elements.tpl.php:42
+msgid "Please fill all fields with red marks"
+msgstr "Les champs marqués en rouge sont requis"
+
+#: ../templates/backend/tpl_elements.tpl.php:47
+#: ../templates/backend/tpl_elements.tpl.php:51
+msgid "Required field"
+msgstr "Champs obligatoire"
+
+#: ../templates/backend/tpl_elements.tpl.php:48
+msgid "Account name"
+msgstr "Nom du compte"
+
+#: ../templates/backend/tpl_elements.tpl.php:52
+msgid "Current balance"
+msgstr "Solde actuel"
+
+#: ../templates/backend/tpl_elements.tpl.php:60
+msgid "Account number"
+msgstr "Numéro du compte"
+
+#: ../templates/backend/tpl_elements.tpl.php:65
+msgid "loading in progress"
+msgstr "chargement en cours"
+
+#: ../templates/backend/tpl_elements.tpl.php:78
+msgid "Add account"
+msgstr "Ajouter un compte"
+
+#: ../templates/backend/tpl_elements.tpl.php:83
+msgid "Save account"
+msgstr "Enregistrer le compte"
+
+#~ msgid "Home consumption dashboard"
+#~ msgstr "Tableau de bord pour la gestion domestique"

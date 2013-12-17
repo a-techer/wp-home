@@ -9,7 +9,7 @@
  */
 
 /** Check if the plugin version is defined. If not defined script will be stopped here */
-if ( !defined( 'WP_HOME_MNGT' ) ) {
+if ( !defined( 'WP_HOME_MNGT_VERSION' ) ) {
 	die( __("You are not allowed to use this service.", 'wp_home_mngt') );
 }
 

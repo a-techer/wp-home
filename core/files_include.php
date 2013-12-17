@@ -9,7 +9,7 @@
  */
 
 /** Check if the plugin version is defined. If not defined script will be stopped here	*/
-if ( !defined( 'WP_HOME_MNGT' ) ) {
+if ( !defined( 'WP_HOME_MNGT_VERSION' ) ) {
 	die( __("You are not allowed to use this service.", 'wp_home_mngt') );
 }
 
@@ -17,7 +17,10 @@ if ( !defined( 'WP_HOME_MNGT' ) ) {
 require_once(WP_HOME_MNGT_CORELIBS_DIR . '/display.class.php' );
 
 /**	Include plugin main controller file	*/
-require_once(WP_HOME_MNGT_CORELIBS_DIR . '/wp_home.class.php' );
+require_once(WP_HOME_MNGT_CORELIBS_DIR . '/wp-home.class.php' );
 
 /**	Include account management librairies 	*/
-require_once(WP_HOME_MNGT_MODULESLIBS_DIR . '/wp_account.class.php' );
+require_once(WP_HOME_MNGT_MODULESLIBS_DIR . '/account.class.php' );
+
+/**	Include categories management librairies 	*/
+require_once(WP_HOME_MNGT_MODULESLIBS_DIR . '/categories.class.php' );

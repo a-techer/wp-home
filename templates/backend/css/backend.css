@@ -1,0 +1,187 @@
+/**	General styles	*/
+.wphmngt-hide {
+	display: none;
+}
+.wphmngt-loading-picture {
+	vertical-align: middle;
+	padding: 4px;
+}
+.wphmngt-overlay {
+    height: 103%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #000000;
+    opacity: 0.64;
+}
+
+/**	Error and alert management	*/
+.wphmngt-alert, .wphmngt-alert h4 {
+	color: #C09853;
+}
+.wphmngt-alert {
+	background-color: #FCF8E3;
+	border: 1px solid #FBEED5;
+	border-radius: 4px 4px 4px 4px;
+	margin-bottom: 20px;
+	padding: 8px 35px 8px 14px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.wphmngt-alert-danger, .wphmngt-alert-error {
+    background-color: #F2DEDE;
+    border-color: #EED3D7;
+    color: #B94A48;
+}
+.wphmngt-alert-success {
+    background-color: #DFF0D8;
+    border-color: #D6E9C6;
+    color: #468847;
+}
+.wphmngt-form-fields.error label {
+	color: #B94A48;	
+}
+.wphmngt-form-fields.error input, .wphmngt-form-fields.error select, .wphmngt-form-fields.error textarea {
+	border-color: #B94A48;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+.wphmngt-form-fields.success label {
+	color: #468847;	
+}
+.wphmngt-form-fields.success input, .wphmngt-form-fields.success select, .wphmngt-form-fields.success textarea {
+	border-color: #468847;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+/**	Dashboard general styles	*/
+#wphmngt-dashboard-widgets {
+	padding: 0px !important;	
+}
+#wphmngt-dashboard-widgets div {
+	float: left;
+	width: 48%;
+}
+#wphmngt-dashboard-left-sortables {
+	border-right: 1px solid #000000;	
+}
+
+/**	Dashboard accounts container styles	*/
+.wphmngt_no_existing_account {
+	float: right;
+	margin: 5% 24px 0 0;
+}
+.wphmngt-dashboard-header {
+	float: left;
+	width: 250px;
+}
+.wphmngt-dashboard-alert {
+	float: left;
+    margin: 4px 0 0;
+    width: 70%;
+    display: none;
+}
+#wphmngt-dashboard-account-container {
+	height: 150px;
+	width: 98%;
+	white-space: nowrap;
+	background: linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+	position: relative;
+}
+#wphmngt-dashboard-account-container .wphmngt-account-creation-button {
+	cursor: pointer;
+	height: 22px;
+	position: absolute;
+	right: -6px;
+	top: 64px;
+	width: 22px;
+}
+
+.wphmngt-dashboard-account-list {
+	float: left;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+.wphmngt-dashboard-account-list li {
+	display: inline-block;
+	height: 84%;
+	margin: 10px;
+	min-width: 140px;
+	position: relative;
+}
+.wphmngt-dashboard-account-list li .wphmngt-account-deletion-button {
+	background: url("../../common/medias/close.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	cursor: pointer;
+	height: 22px;
+	position: absolute;
+	right: -6px;
+	text-indent: 9999px;
+	top: -6px;
+	width: 22px;
+	display: none;
+}
+.wphmngt-dashboard-account-list li .wphmngt-account-edition-button {
+	background: url("../../common/medias/edit.png") no-repeat scroll 2px 3px rgba(0, 0, 0, 0);
+	background-color: #FFFFFF !important;
+	background-size: 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 18px 18px 18px 18px;
+    cursor: pointer;
+    display: none;
+    height: 18px;
+    position: absolute;
+    right: 15px;
+    text-indent: 9999px;
+    top: -6px;
+    width: 18px;
+}
+.wphmngt-dashboard-account-list li:hover .wphmngt-account-deletion-button, .wphmngt-dashboard-account-list li:hover .wphmngt-account-edition-button {
+	display: block;
+}
+
+.wphmngt-account-name {
+	text-align: center;
+	border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: linear-gradient(to top, #6D6D6D, #808080) repeat scroll 0 0 #777777;
+    margin: 0px !important;
+    height: 15px;
+    padding: 7px 10px;
+    color: #FFF;
+}
+.wphmngt-account-details {
+	border-left: 1px solid #6D6D6D;
+	border-right: 1px solid #6D6D6D;
+	border-bottom: 1px solid #6D6D6D;
+	border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+	background-color: #FFF;
+	height: 80%;
+}
+.wphmngt-account-details li {
+	height: auto !important;
+	width: 100% !important;
+	margin: auto !important;
+	text-align: center;
+	display: block !important;
+}
+
+.wphmngt-account-creation-form-container li {
+	clear: both;
+	margin: 0 0 6px;
+}
+.wphmngt-account-creation-form-container label {
+	width: 45%;
+	float: left;
+	padding: 4px 0;
+}
+.wphmngt-account-creation-form-container input, .wphmngt-account-creation-form-container select {
+	width: 47%;
+}
+.required label:after {
+	content: "*";
+	color: red;
+}

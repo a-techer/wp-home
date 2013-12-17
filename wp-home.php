@@ -17,7 +17,7 @@ Author: Alexandre Techer
  * Define the current version for the plugin. Interresting for clear cache for plugin style and script
  * @var string Plugin current version number
  */
-DEFINE('WP_HOME_MNGT', '0.1');
+DEFINE('WP_HOME_MNGT_VERSION', '0.1');
 
 /**
  * Get the plugin main dirname. Allows to avoid writing path directly into code
@@ -35,13 +35,12 @@ if ( WPHMGT_DEBUG_MODE && in_array(long2ip(ip2long($_SERVER['REMOTE_ADDR'])), un
 }
 
 /** Include all librairies on plugin load */
-require_once( WP_HOME_MNGT_CORELIBS_DIR . '/include_files.php' );
+require_once( WP_HOME_MNGT_CORELIBS_DIR . '/files_include.php' );
 
 /** Plugin initialisation */
-new wp_home();
+$wphmmnt = new wphmngt_home();
 
-/**	Instanciate custom post type object	*/
-// $wp_easy_extends_custom_type = new wp_easy_extends_custom_type( );
-// add_action( 'init', array( $wp_easy_extends_custom_type, 'call' ) );
+/**	Create default content on plugin first activiation	*/
+register_activation_hook( __FILE__, array( $wphmmnt, 'activation' ) );
 
 ?>
