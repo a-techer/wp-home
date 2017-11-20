@@ -34,7 +34,6 @@ class wphmngt_home extends wphmngt_display {
 		load_plugin_textdomain( 'wp_home_mngt', false, WP_HOME_MNGT_LANGUAGES_DIR);
 
 		/**	Instanciate display component	*/
-		add_thickbox();
 		parent::__construct();
 
 		/** call plugin menu initialisation */
@@ -98,6 +97,8 @@ class wphmngt_home extends wphmngt_display {
 	 * Load scripts for plugin backend
 	 */
 	function backend_scripts_loader() {
+		add_thickbox();
+
 		wp_enqueue_script('jquery-form');
 		wp_enqueue_script('wphmngt_backend_js', WP_HOME_MNGT_BACKEND_TPL_URL . 'js/backend.js', '', WP_HOME_MNGT_VERSION);
 		wp_enqueue_script('wphmngt_jq_numeric_js', WP_HOME_MNGT_COMMON_TPL_URL . 'js/jquery.numeric.js', '', WP_HOME_MNGT_VERSION);
